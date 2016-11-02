@@ -42,6 +42,7 @@ export default class Header extends NativeBaseComponent {
             iosToolbarSearch: {
                 backgroundColor: this.getTheme().toolbarInputColor,
                 borderRadius: this.props.rounded ? 25 : 2,
+                paddingTop: 6,
                 height: 30,
                 borderColor: 'transparent',
                 flex:1
